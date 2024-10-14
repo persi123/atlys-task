@@ -51,7 +51,7 @@ const CardConnector = () => {
   };
 
   useEffect(() => {
-    calculateOutput(inputValue, functionInfo, functionSequence);
+    if(inputValue) calculateOutput(inputValue, functionInfo, functionSequence);
   }, [inputValue, functionInfo]);
 
   useEffect(() => {
