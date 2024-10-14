@@ -40,3 +40,29 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* styles.css */
+.path-style {
+  stroke: blue;
+  fill: transparent;
+  stroke-width: 4px;
+  opacity: 0.3;
+  stroke-linecap: round;
+}
+
+.dot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px; /* Space between dot and border */
+  border: 2px solid #D3D3D3; /* Border around the dot */
+  border-radius: 50%; /* Make the border circular */
+}
+
+.dot {
+  width: 8px;
+  height: 7px;
+  background-color: #66A3FF; /* Color of the dot */
+  border-radius: 50%; /* Make the dot circular */
+}
