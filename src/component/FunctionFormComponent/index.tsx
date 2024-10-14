@@ -42,12 +42,12 @@ const Index = forwardRef<
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
             />
-               <div className="w-3 flex items-center absolute left-24 top-9">
-                  <div className="dot-container input-1">
-                    <div className="dot"></div>
-                  </div>
-                  {/* <span className="ml-1">Input</span> */}
-                </div>
+            <div className="w-3 flex items-center absolute left-24 top-9">
+              <div className="dot-container input-1">
+                <div className="dot"></div>
+              </div>
+              {/* <span className="ml-1">Input</span> */}
+            </div>
           </div>
         )}
         <div
@@ -117,11 +117,10 @@ const Index = forwardRef<
                   <span className="ml-1">Input</span>
                 </div>
                 <div className="w-3 flex items-center">
-                <span className="mr-1">Output</span>
+                  <span className="mr-1">Output</span>
                   <div className="dot-container output">
                     <div className="dot"></div>
                   </div>
-                 
                 </div>
               </div>
             </div>
@@ -135,11 +134,11 @@ const Index = forwardRef<
               </span>
             </div>
             <div className="w-3 flex items-center absolute left-4 top-9">
-                  <div className="dot-container output-1">
-                    <div className="dot"></div>
-                  </div>
-                  {/* <span className="ml-1">Input</span> */}
-                </div>
+              <div className="dot-container output-1">
+                <div className="dot"></div>
+              </div>
+              {/* <span className="ml-1">Input</span> */}
+            </div>
             <input
               className="bg-white appearance-none border-2 border-[#2DD179] rounded-2xl w-wi-31 py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500 text-end"
               id="inline-full-name"
